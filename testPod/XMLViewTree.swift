@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class XMLViewTree {
+    
+    init() {
+        
+        print("XMLViewTree is allocated")
+    }
+}

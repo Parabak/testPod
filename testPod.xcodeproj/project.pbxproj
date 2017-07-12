@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		ADF46F1288519B2E69B9B47C /* Pods_testPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2A742157F60076CDAA032B /* Pods_testPod.framework */; };
 		BF545A231F160FCE008F7B23 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF545A221F160FCE008F7B23 /* File.swift */; };
+		BF545A251F163F2F008F7B23 /* HOME_overview.png in Resources */ = {isa = PBXBuildFile; fileRef = BF545A241F163F2F008F7B23 /* HOME_overview.png */; };
+		BF545A451F164EFB008F7B23 /* XMLViewTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF545A441F164EFB008F7B23 /* XMLViewTree.swift */; };
 		BF8BF82B1F160EA500C75D34 /* testPod.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8BF8291F160EA500C75D34 /* testPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,8 @@
 		4F2A742157F60076CDAA032B /* Pods_testPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2BD95619B22F44A595CA32 /* Pods-testPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testPod/Pods-testPod.debug.xcconfig"; sourceTree = "<group>"; };
 		BF545A221F160FCE008F7B23 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BF545A241F163F2F008F7B23 /* HOME_overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HOME_overview.png; sourceTree = "<group>"; };
+		BF545A441F164EFB008F7B23 /* XMLViewTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLViewTree.swift; sourceTree = "<group>"; };
 		BF8BF8261F160EA500C75D34 /* testPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8BF8291F160EA500C75D34 /* testPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testPod.h; sourceTree = "<group>"; };
 		BF8BF82A1F160EA500C75D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				BF8BF8291F160EA500C75D34 /* testPod.h */,
 				BF8BF82A1F160EA500C75D34 /* Info.plist */,
 				BF545A221F160FCE008F7B23 /* File.swift */,
+				BF545A241F163F2F008F7B23 /* HOME_overview.png */,
+				BF545A441F164EFB008F7B23 /* XMLViewTree.swift */,
 			);
 			path = testPod;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF545A251F163F2F008F7B23 /* HOME_overview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF545A451F164EFB008F7B23 /* XMLViewTree.swift in Sources */,
 				BF545A231F160FCE008F7B23 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
