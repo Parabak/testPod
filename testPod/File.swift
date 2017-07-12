@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class SUITreePresenter {
+    
+    init() {
+    
+        print("SUITreePresenter is allocated")
+    }
+}
