@@ -36,7 +36,7 @@ s.framework = "UIKit"
 s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = 'testPod/*.{swift}'
+s.source_files = 'testPod/*'
 
 # 9
 s.resources = 'testPod/*.{png,jpeg,jpg,storyboard,xib}'
