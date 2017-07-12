@@ -30,17 +30,14 @@ s.homepage = "https://github.com/Parabak/testPod"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/Parabak/testPod.git", :tag => "#{s.version}"}
 
-# For example,
-# s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
-
 
 # 7
 s.framework = "UIKit"
 s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "testPod/*.{swift}"
+s.source_files = 'testPod/*.{swift}'
 
 # 9
-s.resources = "testPod/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = 'testPod/*.{png,jpeg,jpg,storyboard,xib}'
 end
